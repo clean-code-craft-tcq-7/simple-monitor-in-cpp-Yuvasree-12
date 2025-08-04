@@ -32,6 +32,7 @@ int vitalsOk(float temperature, float pulseRate, float spo2) {
       cout << "\r *" << flush;
       sleep_for(seconds(1));
     }
+    
     return 0;
   }
   return 1;
